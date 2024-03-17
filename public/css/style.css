@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.text-multi-color {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+code {
+  background-color: whitesmoke;
+}
+
+#user-stories {
+  font-size: 1.2em;
+}
+
+#output-container,
+#solution-container,
+#text-input,
+#locale-select,
+input[type="button"] {
+  font-size: 1.1em;
+}
+
+#solution-container {
+  font-weight: bold;
+}
+
+#translated-sentence {
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#error-msg {
+  font-weight: normal;
+  color: red;
+}
+
+.highlight {
+  color: green;
+}
